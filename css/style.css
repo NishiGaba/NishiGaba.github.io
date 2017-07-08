@@ -1,0 +1,28 @@
+/*STYLING MY PERSONAL WEB :D*/
+
+body{
+	 background:-webkit-repeating-linear-gradient(127deg,rgba(0, 188, 212, 0.3) 0%,#3F51B5 100%);
+	}
+
+#profileImg {
+	background-image: url('../img/mine.jpg');
+	height: 190px;
+	width:190px;
+	background-size:320px 192px;
+	transform: rotate(90deg);
+	border-radius: 50%;
+	border:5px solid white;
+	position: relative;
+	top:110px;
+}
+
+.btn-primary {
+    color: #2e6da4 !important;
+    background-color: white !important;
+}
+
+.resumeBtn {
+	position: relative;
+	left:583px;
+	top:140px;
+}
