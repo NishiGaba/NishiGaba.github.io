@@ -32,10 +32,10 @@ body{
 }
 
 #profileImg {
-	background-image: url('../img/mine.jpg');
-	height: 190px;
-	width:190px;
-	background-size:320px 192px;
+	background-image: url('../img/nishi.jpg');
+	height: 170px;
+	width:170px;
+	background-size:cover;
 	transform: rotate(90deg);
 	border-radius: 50%;
 	border:5px solid white;
@@ -50,5 +50,5 @@ body{
 
 .resumeBtn {
 	position: relative;
-	top:140px;
+	top:125px;
 }
