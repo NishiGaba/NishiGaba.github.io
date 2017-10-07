@@ -1,54 +1,24 @@
 /*STYLING MY PERSONAL WEB :D*/
 
-body{
-	 background:linear-gradient(134deg, #FF8B8B, #61BFAD , #E54B4B, #167C80, #B7E3E4, #005397,#0E38B1);
-	 background-size: 1800% 1800%;
-
-    -webkit-animation: rainbow 10s ease infinite;
-    -z-animation: rainbow 10s ease infinite;
-    -o-animation: rainbow 10s ease infinite;
-    animation: rainbow 10s ease infinite;}
-	}
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-moz-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@-o-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-}
-@keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-#profileImg {
-	background-image: url('../img/nishi.jpg');
-	height: 170px;
-	width:170px;
-	background-size:cover;
-	transform: rotate(90deg);
-	border-radius: 50%;
-	border:5px solid white;
-	position: relative;
-	top:110px;
+#socialLinks li {
+    display : inline;
+    margin: 5px;
 }
 
-.btn-primary {
-    color: #2e6da4 !important;
-    background-color: white !important;
+#socialLinks li a , #navHeader a{
+    color: #305b90;
 }
 
-.resumeBtn {
-	position: relative;
-	top:125px;
+#socialLinks {
+    text-align: right;
 }
+
+.navBar {
+    margin-top: 45px;
+    margin-bottom: -22px !important;
+}
+
