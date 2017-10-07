@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.textColor {
+	color :#305b90;
+}
+
 #socialLinks li {
     display : inline;
     margin: 5px;
@@ -19,6 +23,9 @@ body {
 
 .navBar {
     margin-top: 45px;
-    margin-bottom: -22px !important;
+    /*margin-bottom: -22px !important;*/
 }
 
+.profileHeader {
+	font-size: 45px;
+}
