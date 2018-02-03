@@ -2,10 +2,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: white;
 }
 
 .textColor {
 	color :#305b90;
+}
+
+#socialLinks  img {
+    height : 20px;
 }
 
 #socialLinks li {
@@ -23,9 +28,13 @@ body {
 
 .navBar {
     margin-top: 45px;
-    /*margin-bottom: -22px !important;*/
 }
 
 .profileHeader {
 	font-size: 45px;
+}
+
+.hackerGirl {
+    margin-left: 25%;
+    margin-top: 6%;
 }
